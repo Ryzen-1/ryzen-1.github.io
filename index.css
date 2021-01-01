@@ -90,6 +90,25 @@ section .title::after{
     cursor: pointer;
     color:rgb(255, 50, 50);
 }
+.social:hover {
+    cursor: pointer;
+    color:rgb(255, 50, 50);
+}
+.socialH {
+    max-width: 100%;
+    color:#fff;
+    font-size:22px;
+    border-radius:50%;
+    transition:0.4s ease-in-out;
+    padding: 3vh;
+    text-align:center;
+}
+
+.logo1{
+    margin-right: 2px;
+    width: 60px;
+    height: 60px;    
+}
 
 /* navbar styling */
 .navbar{
@@ -102,7 +121,7 @@ section .title::after{
 }
 .navbar.sticky{
     padding: 15px 0;
-    background: crimson;
+    background: rgba(220, 20, 60, 0.541);
 }
 .navbar .max-width{
     display: flex;
@@ -111,7 +130,7 @@ section .title::after{
 }
 .navbar .logo a{
     color: #fff;
-    font-size: 35px;
+    font-size: 40px;
     font-weight: 600;
 }
 .navbar .logo a span{
@@ -376,10 +395,10 @@ section .title::after{
     width: 90%;
 }
 .skills-content .right .css::before{
-    width: 80%;
+    width: 60%;
 }
 .skills-content .right .js::before{
-    width: 40%;
+    width: 80%;
 }
 .skills-content .right .php::before{
     width: 50%;
