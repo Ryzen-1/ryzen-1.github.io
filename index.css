@@ -109,7 +109,10 @@ section .title::after{
     width: 60px;
     height: 60px;    
 }
-
+.logo2{
+    width: 10px;
+    height: 10px;    
+}
 /* navbar styling */
 .navbar{
     position: fixed;
