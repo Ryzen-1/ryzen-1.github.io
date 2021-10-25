@@ -201,7 +201,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("https://cdn.pixabay.com/photo/2016/10/11/21/43/geometric-1732847_960_720.jpg") no-repeat center;
+    background: url("https://cdn.pixabay.com/photo/2016/07/29/19/15/darth-maul-1555343_960_720.png") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
